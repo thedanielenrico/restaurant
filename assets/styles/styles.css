@@ -4,8 +4,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;  */
-    color: rgb(111,195,223)
+    color: rgb(111,195,223);
+    font-family: "Bookman", serif
 
+}
+header {
+    position: fixed;
 }
 /* .col {
     text-align: center;
@@ -17,6 +21,6 @@ span {
     float: left;
     color: rgb(111,195,223)
 }
-.para {
-    text-align: left;
+p {
+    text-align: center;
 }
