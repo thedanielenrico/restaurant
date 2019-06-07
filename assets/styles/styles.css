@@ -1,31 +1,48 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
-    background-color: rgb(12,20,31);
-    color: rgb(111,195,223);
+    background-color: #1b1b1b;
+    color: rgb(230,255,255);
     font-family: "Bookman", serif;
     font-size: 20px;
     text-shadow: 
-    0 0 5px rgb(36, 248, 229);
+    0 0 9px rgb(230,255,255);
+    filter: brightness(130%);
+
 }
-.logoCenter {
-    text-align: center;
-    overflow: auto;
+.logo {
+    filter: brightness(130%);
+    float: left;
+
 }
 
+.logoCenter {
+    margin-top: 52px;
+}
+.landing {
+    height: 100vh;
+}
 header {
     position: fixed;
     word-wrap: break-word;
     width: 12px;
     padding: 12px;
-    filter: brightness(130%);
-
 }
 #header {
     margin: 35px;
    
 }
 a {
+    color: rgb(196, 240, 255);
+    font-size: 18px;
+    filter: brightness(130%);
+    transition: color 0.75s ease;
+}
+a:hover{
     color: rgb(111,195,223);
-
+    text-decoration: none;
 }
 p {
     text-align: center;
@@ -34,13 +51,12 @@ p {
 }
 
 @media (max-width: 720px) {
-    header {
+    #header {
         word-wrap: none;
         width: 100%;
         height: auto;
         position: fixed;
-        background-color: rgb(12,20,31);
-        margin: 0;
+        margin: auto;
         margin-bottom: 25px;
     }
     a {
