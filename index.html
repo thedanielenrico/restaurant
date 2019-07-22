@@ -12,12 +12,12 @@
 </head>
 
 <body>
-    <div class="container m-0 p-0">
+    <div class="container m-0">
 
-        <div class="row fixed-top">
+        <div class="row">
 
-            <header id="header" class="clearfix">
-                <a href="#info">
+            <header>
+                <!-- <a href="#info">
                     <span class="navigationLetter">i</span>
                     <span class="navigationLetter">n</span>
                     <span class="navigationLetter">f</span>
@@ -29,7 +29,7 @@
                     <span class="navigationLetter">n</span>
                     <span class="navigationLetter">u</span>
                 </a>
-                <a href="#journal" class="">
+                <a href="#journal">
                     <span class="navigationLetter">j</span>
                     <span class="navigationLetter">o</span>
                     <span class="navigationLetter">u</span>
@@ -37,7 +37,10 @@
                     <span class="navigationLetter">n</span>
                     <span class="navigationLetter">a</span>
                     <span class="navigationLetter">l</span>
-                </a>
+                </a> -->
+                <a href="#info" class="navigation">info</a>
+                <a href="#menu" class="navigation">menu</a>
+                <a href="#journal" class="navigation">journal</a>
             </header>
         </div>
 
@@ -47,7 +50,7 @@
             <div class="logo col" style="text-align: center">
                 <div class="logoCenter">
                     <div class="logoLetterRow">
-                        <div class="logoLetter upperLetter">M</div>
+                        <div class="logoLetter">m</div>
                     </div>
                     <div class="logoLetterRow">
                         <div class="logoLetter">o</div>
@@ -68,7 +71,7 @@
                         <div class="logoLetter">g</div>
                     </div>
                     <div class="logoLetterRow">
-                        <div class="logoLetter upperLetter">B</div>
+                        <div class="logoLetter">b</div>
                     </div>
                     <div class="logoLetterRow">
                         <div class="logoLetter">i</div>
@@ -83,31 +86,39 @@
             </div>
         </div>
     </div>
-    <!-- INFO -->
-    <div id="info" class="container">
-        <h3 class="text-center">INFO</h3>
-    </div>
     <!-- MENU -->
     <div id="menu" class="container">
-        <h3 class="text-center">MENU</h3>
-        <div class="row">
+        <h6 class="text-center">MENU</h6>
+        <div class="row m-4">
+            <div class="col-md-12" id="hours">
+                <p>M-F BREAKFAST 8am - 11:30am</p>
+                <p>M-F LUNCH 11:30am - 5pm</p>
+                <p>WEEKEND 9am - 3pm</p>
+            </div>
+        </div>
+        <div class="row m-4">
             <div class="col-md-6 text-center">
                 <p>brioche tart</p>
                 <p><small>aprium, sesame, spiced custard</small></p>
             </div>
+        </div>
+        <div class="row m-4">
             <div class="col-md-6">
                 <p>levain toast</p>
                 <p><small>butter & jam</small></p>
                 <p><small>vegetarian</small></p>
 
             </div>
-
         </div>
 
     </div>
+    <!-- INFO -->
+    <div id="info" class="container">
+        <h3 class="text-center">INFO</h3>
+    </div>
     <!-- JOURNAL -->
     <div id="journal" class="container">
-            <h3 class="text-center">JOURNAL</h3>
+        <h3 class="text-center">JOURNAL</h3>
 
     </div>
 
