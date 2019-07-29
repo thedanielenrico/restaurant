@@ -6,37 +6,44 @@ body {
     background-color: #1b1b1b;
     color: rgb(230,255,255);
     font-family: "Bookman", serif;
-    font-size: 10px;
+    font-size: 12px;
     text-shadow: 
     0 0 9px rgb(230,255,255);
     filter: brightness(130%);
+    padding: 0;
 
 }
-.logo {
-    filter: brightness(130%);
-    float: left;
-    font-size: 22px;
+img{
+    filter: brightness(0.7);
+
 }
-.logoCenter {
-    margin-top: 52px;
+#container {
+    padding: 15%;
 }
 .landing {
     height: 100vh;
 }
 header {
     width: 12px;
-    padding: 12px;
+    /* padding: 12px; */
+    padding-top: 5%;
     margin: 35px; 
     position: fixed;
 }
 a {
     color: rgb(196, 240, 255);
-    font-size: 18px;
+    font-size: 17px;
     filter: brightness(130%);
     transition: color 0.3s ease;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    margin: 20px;
+    margin: 20px;   
+}
+#name {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 18px;
+    margin: 0px 50%;
 }
 a:hover{
     color: rgb(111,195,223);
@@ -48,17 +55,17 @@ p {
 }
 
 @media (max-width: 720px) {
-    #header {
-        word-wrap: none;
+    header {
         width: 100%;
-        height: auto;
         position: fixed;
-        margin: auto;
-        margin-bottom: 25px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
     a {
-        padding: 30px;
-        text-align: left;
         writing-mode: horizontal-tb;
+    }
+    #name {
+    margin: 50%;
     }
 }
